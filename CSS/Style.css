@@ -12,6 +12,14 @@ hp-content{
     align-items: center;
 }
 
+hp-presentation>hp-slide{
+    display: none;
+}
+
+hp-presentation>hp-slide.active{
+    display: inline-block;
+}
+
 hp-presentation{
     display: block;
     width: 80vmin;
@@ -25,7 +33,7 @@ hp-slide{
     width: 80%;
     height: 80%;
     margin: 10%;
-    font-size: 10vmin;
+    font-size: 7vmin;
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
